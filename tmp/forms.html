@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1>Form Demo</h1>
+    <form action="/tacos">
+        <p>
+            <label for="username">User name</label>
+            <input id="username" type="text" placeholder="User name" name="username">
+        </p>
+
+        <p>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password" name="password">
+        </p>
+
+        <p>
+            <label for="color">Favorite color</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <p>
+            <label for="number">Favorite number
+                <input type="number" id="number" name="number">
+            </label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">Agree?</label>
+        </p>
+
+        <p>
+            <input type="radio" name="size" id="xs" value="size">
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="m" value="size">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="l" value="size">
+            <label for="l">L</label>
+        </p>
+
+        <p>
+            <label for="meal">Meal</label>
+            <select name="meal" id="meal">
+                <option value="taco">Taco</option>
+                <option value="burrito">Burrito</option>
+                <option value="enchilada">Enchilada</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="cheese">Quantity of cheese</label>
+            <input type="range" name="cheese_level" id="cheese" min="1" max="10">
+        </p>
+        <p>
+            <label for="comments">Comments</label>
+            <br>
+            <textarea name="comments" id="comments" rows="10" cols="40"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
