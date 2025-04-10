@@ -61,10 +61,6 @@ button:hover {
     color : #f1faee;
 }
 
-.post button:hover {
-    background-color: #e63946;
-    color : #f1faee;
-}
 
 .post a:hover {
     text-decoration: underline;
@@ -76,4 +72,26 @@ button:hover {
 
 .post:nth-of-type(3n) {
     background-color: #c9d5c5;
+}
+
+h2::first-letter {
+    font-size: 50px;
+    
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: sandybrown;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color : #f1faee;
+}
+
+button:hover {
+    background-color: olive;
 }
